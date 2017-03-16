@@ -1,0 +1,19 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: $light-color;
+	color: $text-color;
+	text-align: center;
+
+	.group:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.container{
+		max-width: 1200px;
+		margin: auto;
+		text-align: left;
+		box-sizing: border-box;
+	}
+}

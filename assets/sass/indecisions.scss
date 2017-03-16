@@ -1,0 +1,113 @@
+#indecisions{
+
+	.content{
+		float: left;
+		width: 57%;
+		box-sizing: border-box;
+
+		.add-form{
+			padding: 20px;
+			background-color: #e8e8e8;
+
+			.form-row{
+				margin-bottom: 20px;
+				width: 100%;
+
+				label{
+					font-size: 20px;
+					margin-bottom: 10px;
+					display: block;
+				}
+
+				input{
+					width: 100%;
+					padding: 10px;
+					font-size: 18px;
+					box-sizing: border-box;
+				}
+
+				input[type="submit"]{
+					padding: 20px;
+					border: 0px;
+					background-color: $highlight;
+					color: #FFF;
+					cursor: pointer;
+				}
+			}
+		}
+
+	}
+
+	.sidebar{
+		float: right;
+		width: 40%;
+		box-sizing: border-box;
+
+		h2{
+
+		}
+
+		.indecision-row{
+			border-bottom: 1px dotted #CDCDCD;
+			padding: 10px;
+			box-sizing: border-box;
+
+			.text{
+				float: left;
+				width: 80%;
+				font-size: 16px;
+			}
+			.delete{
+				float: left;
+				width: 20%;
+				box-sizing: border-box;
+				text-align: right;
+
+				button{
+					padding: 10px;
+					border: 0px;
+					background-color: $highlight;
+					color: #FFF;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+#decision-made{
+	.result{
+		padding: 20px;
+		margin-top: 20px;
+		border: 1px dotted #cdcdcd;
+
+		h2{
+			font-size: 20px;
+		}
+
+		h3{
+			text-align: center;
+			font-size: 60px;
+		}
+		p{
+			text-align: center;
+			font-size: 22px;
+			color:#575757;
+			line-height: 1.5;
+		}
+	}
+}
+
+.pick-form{
+	input[type="submit"],
+	button{
+		padding: 10px;
+		border: 0px;
+		background-color: #45a9ef;
+		color: #FFF;
+		cursor: pointer;
+		width: 100%;
+		font-size: 40px;
+		margin-top: 20px;
+	}
+}

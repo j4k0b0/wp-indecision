@@ -1,0 +1,19 @@
+/*
+	Variables
+*/
+$light-color: #2d3e56;
+$dark-color: #24344b;
+$text-color: #FFF;
+$link-color: #FFF;
+$highlight: #f03c4d;
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700,900';
+@import 'https://fonts.googleapis.com/css?family=Anton';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
+
+@import 'reset';
+@import 'general';
+@import 'header';
+@import 'footer';
+@import 'page';
+@import 'indecisions';

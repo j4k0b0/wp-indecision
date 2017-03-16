@@ -1,0 +1,46 @@
+header{
+	background-color: $dark-color;
+	padding: 30px 0 60px 0;
+
+	#logo{
+		float: left;
+		width: 200px;
+		box-sizing: border-box;
+
+		a{
+			color: $highlight;
+			font-size: 50px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Anton', sans-serif;
+		}
+
+	}
+	#top-navigation{
+		float: left;
+		padding-left: 80px;
+		padding-top: 15px;
+		width: calc(100% - 200px);
+		box-sizing: border-box;
+
+		ul{
+			li{
+				float: left;
+				list-style: none;
+				margin-right: 20px;
+
+				a{
+					color: $link-color;
+					text-decoration: none;
+					padding-bottom: 5px;
+					font-size: 18px;
+
+					&:hover{
+						border-bottom: 3px solid $highlight;
+					}
+
+				}
+			}
+		}
+	}
+}

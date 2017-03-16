@@ -1,0 +1,42 @@
+<div class="content">
+	<div class="add-form">
+		<form>
+			<div class="form-row">
+				<label>Name</label>
+				<input type="text" ng-model="name" />
+			</div>
+			<div class="form-row">
+				<label>Address</label>
+				<input type="text" ng-model="information" />
+			</div>
+			<div class="form-row">
+				<input type="submit" value="Add This Place" ng-click="addIndecision()" />
+			</div>
+		</form>
+	</div>
+	<!-- end add-form -->
+
+	<div class="pick-form">
+		<button ng-click="selectChoice()">PICK A CHOICE</button>
+	</div>
+	<!-- end pick-form -->
+
+	<div id="decision-made">
+		<div class="result" ng-show="choice"><h2>You are going to</h2><h3>{{result.name}}</h3><p>{{result.information}}</p></div>
+	</div>
+	<!-- container for input -->
+</div>
+<!-- end content -->
+<div class="sidebar">
+	<h2>Your Choices</h2>
+	<div id="choices">
+		<div class="indecision-row group" ng-repeat="choice in indecisionList">
+			<div class="text">{{choice.name}}</div>
+			<div class="delete">
+				<button class="delete-this" ng-click="deleteThis(choice.id)"><i class="fa fa-trash" aria-hidden="true"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- choices -->
+</div>
+<!-- end sidebar-->

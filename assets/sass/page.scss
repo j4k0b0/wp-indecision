@@ -1,0 +1,38 @@
+.page{
+	padding: 30px;
+	background-color: #f1f1f1;
+	color: $dark-color;
+	position: relative;
+	top: -30px;
+
+	h1{
+		font-size: 40px;
+		font-weight: 900;
+		margin-bottom: 20px;
+		font-family: 'Anton', sans-serif;
+		color:#000;
+		text-transform: uppercase;
+	}
+
+	h2{
+		font-size: 32px;
+		font-weight: 900;
+		margin-bottom: 20px;
+		font-family: 'Anton', sans-serif;
+		color:#000;
+		text-transform: uppercase;
+	}
+
+	h3{
+		font-size: 28px;
+		font-weight: 900;
+		margin-bottom: 20px;
+		font-family: 'Anton', sans-serif;
+		color:#000;
+		text-transform: uppercase;
+	}
+
+	p{
+		color:#0f0f0f;
+	}
+}
